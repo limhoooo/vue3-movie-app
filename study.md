@@ -1,5 +1,5 @@
 ### scss 사용시
-!default 를 사용하면 차후 재정의가 가능한 스타일변수이다.<br>
+__!default__ 를 사용하면 차후 재정의가 가능한 스타일변수이다.<br>
 ex :) $primary: #FDC000;<br>
 부트스트랩의 primary class 의 스타일을 재정의<br>
 
