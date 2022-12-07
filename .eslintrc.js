@@ -4,6 +4,8 @@ module.exports = {
     browser: true,
     node: true
   },
+  // md 파일 제외
+  ignorePatterns: "**/*.md",
   // 사용 가능한 규칙 세트
   extends: [
     // 'plugin:vue/vue3-essential', // Lv1

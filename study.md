@@ -7,3 +7,6 @@ ex :) $primary: #FDC000;<br>
 .config.js 에서 경로의 별칭을 설정할수있음<br>
 ex :) '~': path.resolve(__dirname, 'src'),<br>
 
+### eslint 특정 확장자 제외
+.eslintrc.js 파일에 <br> 
+ignorePatterns: "**/*.md", 추가
