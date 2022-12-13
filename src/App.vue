@@ -1,11 +1,16 @@
 <template>
+  <Headers />
   <RouterView />
 </template>
 
 <script>
-export default {
+import { defineAsyncComponent, defineComponent } from '@vue/runtime-core'
 
-}
+export default defineComponent({
+  components : {
+    Headers : defineAsyncComponent(()=>import('./components/Header.vue')) 
+  }
+})
 </script>
 
 <style lang="scss">
