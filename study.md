@@ -16,7 +16,7 @@ RouterLink 사용시 클릭한 태그에 active class 를 삽입할때
 ```
 <RouterLink
   :to="nav.href"
-  __active-class="active"
+  active-class="active"
   class="nav-link">
 {{ nav.name }}
 </RouterLink>

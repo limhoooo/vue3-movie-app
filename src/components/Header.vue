@@ -1,5 +1,6 @@
 <template>
   <header>
+    <Logo />
     <div class="nav nav-pills">
       <div
         class="nav-item"
@@ -17,7 +18,11 @@
 </template>
 
 <script>
+import Logo from '~/components/Logo.vue';
 export default {
+    components: {
+        Logo,
+    },
     setup(){
      const navigations = [
                 {name: 'Search', href: '/'},
@@ -28,7 +33,15 @@ export default {
     }
 }
 </script>
-
-<style>
+<style lang="scss" scoped>
+header {
+    height: 70px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    .logo {
+        margin-right: 40px;
+    }
+}
 
 </style>
