@@ -7,8 +7,8 @@
 - npm i vue-router@4
 
 ### bootstrap 설치
+- https://getbootstrap.com/docs/5.2/getting-started/introduction/
 - npm i bootstrap
-
 
 ## Versions
 

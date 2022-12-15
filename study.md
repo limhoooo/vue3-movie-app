@@ -22,3 +22,8 @@ RouterLink 사용시 클릭한 태그에 active class 를 삽입할때
 </RouterLink>
 ```
 active-class 프로퍼티로 변경가능하다
+
+### RouterLink active class
+v-model="$data[filter.name]"
+
+$data 로 동적으로 data 에 접근가능
